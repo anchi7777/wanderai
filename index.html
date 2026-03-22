@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderAI Travel Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>WanderAI Travel Planner</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Plan Your Trip</h2>
+            <form id="travel-form">
+                <label for="language">Select Language:</label>
+                <select id="language">
+                    <option value="en">English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                    <!-- Add more languages as needed -->
+                </select>
+                <label for="currency">Select Currency:</label>
+                <select id="currency">
+                    <option value="usd">USD</option>
+                    <option value="eur">EUR</option>
+                    <option value="gbp">GBP</option>
+                    <!-- Add more currencies as needed -->
+                </select>
+                <label for="accommodation">Accommodation Preferences:</label>
+                <input type="text" id="accommodation" placeholder="Hotel, hostel, etc.">
+                <label for="diet">Dietary Restrictions:</label>
+                <input type="text" id="diet" placeholder="Vegan, vegetarian, etc.">
+                <label for="weather">Weather Condition:</label>
+                <input type="text" id="weather-display" placeholder="Current Location Weather">
+                <label for="activities">Interests/Activities:</label>
+                <select id="activities" multiple>
+                    <option value="sightseeing">Sightseeing</option>
+                    <option value="hiking">Hiking</option>
+                    <option value="food">Food Tours</option>
+                    <!-- Add more activities as needed -->
+                </select>
+                <button type="submit">Plan Trip</button>
+                <button type="button" id="export">Export to PDF</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 WanderAI. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
