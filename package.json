@@ -1,0 +1,1 @@
+{\n  \"dependencies\": {\n    \"jspdf\": \"^2.4.0\",\n    \"html2canvas\": \"^1.4.1\",\n    \"axios\": \"^0.21.1\"\n  },\n  \"devDependencies\": {\n    \"webpack\": \"^5.64.4\",\n    \"jest\": \"^27.0.6\",\n    \"gh-pages\": \"^3.2.3\"\n  }\n}
